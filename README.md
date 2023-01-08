@@ -1,3 +1,3 @@
-2012 AdventOfCode in Dart
+2022 AdventOfCode in Dart with test cases
 
 https://adventofcode.com/2022

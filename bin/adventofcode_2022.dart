@@ -8,6 +8,8 @@ import 'package:adventofcode_2022/day05.dart';
 import 'package:adventofcode_2022/day06.dart';
 import 'package:adventofcode_2022/day07.dart';
 import 'package:adventofcode_2022/day08.dart';
+import 'package:adventofcode_2022/day09.dart';
+
 
 import 'dart:developer';
 import 'package:worker_manager/worker_manager.dart';
@@ -24,6 +26,7 @@ void main(List<String> arguments) async {
     Day06(),
     Day07(),
     Day08(),
+    Day09(),
 
   ];
 
