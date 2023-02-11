@@ -18,3 +18,4 @@ dev_dependencies:
   stream_channel: ^2.1.0
   worker_manager: ^4.2.6
   collection: ^1.17.0
+  tuple: ^2.0.1

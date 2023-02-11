@@ -1,5 +1,7 @@
 import 'dart:io';
 import 'dart:convert';
+import 'package:adventofcode_2022/common.dart';
+
 import 'day.dart';
 import 'solution_check.dart';
 
@@ -10,24 +12,6 @@ class DataItem {
   DataItem(this.dir, this.steps);
 }
 typedef DataItemList = List<DataItem>;
-
-class Point {
-  int x;
-  int y;
-
-  Point(this.x, this.y);
-
-  Point.clone(Point point): this(point.x, point.y);
-
-  @override
-  bool operator ==(dynamic other) {
-    return x == other.x && y == other.y;
-  }
-
-  @override
-  int get hashCode => x^y;
-
-}
 
 @DayTag()
 class Day09 extends Day with ProblemReader, SolutionCheck {

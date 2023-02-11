@@ -11,6 +11,7 @@ import 'package:adventofcode_2022/day08.dart';
 import 'package:adventofcode_2022/day09.dart';
 import 'package:adventofcode_2022/day10.dart';
 import 'package:adventofcode_2022/day11.dart';
+import 'package:adventofcode_2022/day12.dart';
 
 import 'dart:developer';
 import 'package:worker_manager/worker_manager.dart';
@@ -30,6 +31,7 @@ void main(List<String> arguments) async {
     Day09(),
     Day10(),
     Day11(),
+    Day12()
   ];
 
   for (var day in days) {
