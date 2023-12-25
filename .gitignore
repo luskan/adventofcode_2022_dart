@@ -6,3 +6,5 @@
 build/
 /pubspec.lock
 /.idea/libraries/Dart_Packages.xml
+.DS_Store
+.idea/
